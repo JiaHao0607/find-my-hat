@@ -13,6 +13,9 @@
   "license": "ISC",
   "author": "Jia Hao",
   "type": "module",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
