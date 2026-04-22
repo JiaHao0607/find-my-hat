@@ -1,7 +1,7 @@
 {
   "name": "h_assessment_structure",
   "version": "1.0.0",
-  "description": "a simple javascript console-based game",
+  "description": "A simple JavaScript console-based game",
   "homepage": "https://github.com/JiaHao0607/find-my-hat#readme",
   "bugs": {
     "url": "https://github.com/JiaHao0607/find-my-hat/issues"
@@ -12,12 +12,10 @@
   },
   "license": "ISC",
   "author": "Jia Hao",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "prompt-sync": "^4.2.0"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   }
 }
